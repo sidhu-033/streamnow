@@ -1,0 +1,376 @@
+.logo {
+    width: 157px;
+}
+@media screen and (min-width: 100px) and (max-width: 768px) {
+    .px0 {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .py0 {
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    .mx0 {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+    .pxs {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .my {
+        padding-left: 20px !important;
+    }
+    /* .footer-container-calendar {
+        display: none;
+    } */
+    .container-calendar {
+        padding: 0px !important;
+    }
+    .version::before {
+        display: none;
+    }
+    .version::after {
+        display: none;
+    }
+    .pvupgrades::before {
+        display: none;
+    }
+}
+.dd {
+    position:relative;
+}
+
+
+.ddcontent {
+    position: absolute;
+    top: 40px;
+    display: none;
+    width: 300%;
+    z-index: 2;
+}
+.dd:hover .ddcontent{
+    display: block;
+}
+.nlink {
+    color: black;
+    padding: 8px;
+
+}
+.nlink:hover {
+    color: rgb(61, 61, 61);
+    background-color: rgb(252, 248, 248);
+}
+.bg1 {
+    background-image: linear-gradient(to bottom,rgb(206, 38, 58),rgb(222, 121, 222));
+}
+.bgp {
+    background-color:rgb(206, 38, 58)
+}
+.bg11 {
+    background-image: url("bg.webp");
+    background-position: bottom center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.bt1 {
+    background-color: orange;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+.sticky {
+    background-color: white !important;
+    z-index: 1;
+    box-shadow: #f7f2f2 0px 0px 20px 0px;
+}
+.sticky .navbar .container .collapse .navbar-nav .nav-item .nl {
+    color: black !important;
+}
+.bt2 {
+    background-color: orangered;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+.btr {
+    position: relative;
+}
+.ia {
+    position: absolute;
+    padding-left: 5px;
+    top: 14px;
+    transition-property: padding-left;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    display: none;
+}
+.btr:hover .ia {
+    display: inline;
+
+}
+.ia:hover {
+    padding-left: 18px;
+}
+.clip {
+    clip-path: circle(50% at 50% 50%);
+    width: 41px;
+    height: 41px;
+}
+.ip {
+    padding: 13px 0px 0px 13px;
+}
+.bgi {
+    background-image:url("bg1.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: rgba(173, 182, 189, 0.133);
+
+}
+.bg-top-divider {
+    background-image: url("top.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: rgba(173, 182, 189, 0.133);
+    height: 100px;
+
+}
+.bg-bottom-divider {
+    background-image: url("bottom.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: rgba(173, 182, 189, 0.133);
+    height: 100px;
+    transform: rotateX(180deg);
+
+}
+.live-streaming {
+    transform: scale(1,1);
+    transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+.live-streaming:hover {
+    transform: scale(1.1,1.1);
+}
+.streamnow {
+    background-image: linear-gradient(to bottom,white,pink);
+}
+.bg-bottom-dividerp {
+    background-image: url("bottomp.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100px;
+    transform: rotateY(180deg);
+
+}
+.bg-top-dividerp {
+    background-image: url("topdivider.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100px;
+    transform: rotateY(180deg);
+
+}
+.logos {
+    max-width: 100%;
+    height: auto;
+}
+.fsm {
+    font-size: 12px;
+    font-weight:bold;
+}
+.pvupgrades::before {
+    content: "";
+    position: absolute;
+    background-color: rgb(237, 231, 231);
+    top: 0px;
+    left: 4px;
+    height: 100%;
+    width: 7px;
+
+}
+.version::before {
+    content:"";
+    clip-path: circle(50% at 50% 50%);
+    position: absolute;
+    top: 0px;
+    left: -70px;
+    height: 60px;
+    width: 60px;
+    background-color: purple;
+}
+.version::after {
+    content:"";
+    font-size: 12px;
+    align-items: center;
+    clip-path: circle(50% at 50% 50%);
+    position: absolute;
+    top: 4px;
+    left: -66px;
+    height: 52px;
+    width: 52px;
+    background-color: white;
+
+}
+.version5::before {
+    content: "v5.0";
+    position: absolute;
+    top: -25px;
+    left: -54px;
+}
+.version4::before {
+    content: "v4.0";
+    position: absolute;
+    top: -25px;
+    left: -54px;
+}
+.version3::before {
+    content: "v3.0";
+    position: absolute;
+    top: -25px;
+    left: -54px;
+}
+.version1::before {
+    content: "v2.0";
+    position: absolute;
+    top: -25px;
+    left: -54px;
+}
+
+.bgcleaning {
+    background-image: url("cleaning-services.webp");
+    background-size: cover;
+}
+.gif {
+    max-width: 100%;
+}
+.textorange {
+    color: orangered;
+}
+.apps {
+    background-image: url(bg1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.pplans {
+    background-image: linear-gradient(to right, white,pink);
+}
+.plans {
+    font-size: 80px;
+}
+.plans::before {
+    content: "$";
+    position: absolute;
+    top: 11px;
+    left: 215px;
+    font-size: 18px;
+}
+.bg-black {
+    background-color: black;
+}
+.bg-violet {
+    background-color: rgb(26, 3, 26);
+}
+.wrapper {
+    margin: 15px auto;
+    max-width: 1100px;
+}
+
+.container-calendar {
+    background: #ffffff;
+    padding: 15px;
+    max-width: 475px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.button-container-calendar button {
+    cursor: pointer;
+    display: inline-block;
+    zoom: 1;
+    /* background: #00a2b7; */
+    color: #888888;
+    /* border: 1px solid #0aa2b5; */
+    /* border-radius: 4px; */
+    /* padding: 5px 10px; */
+    border: none;
+    background-color: white;
+}
+
+.table-calendar {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-calendar td, .table-calendar th {
+    padding: 5px;
+    /* border: 1px solid #e2e2e2; */
+    text-align: center;
+    vertical-align: top;
+}
+
+.date-picker.selected {
+    font-weight: bold;
+    /* outline: 1px dashed #00BCD4; */
+    background-color: #c6d8db;
+    clip-path: circle(40% at 50% 50%);
+    color: rgb(76, 27, 236);
+}
+
+/* .date-picker.selected span {
+    border-bottom: 2px solid currentColor;
+} */
+
+
+
+#monthAndYear {
+    text-align: center;
+    margin-top: 0;
+}
+
+.button-container-calendar {
+    position: relative;
+    margin-bottom: 1em;
+    overflow: hidden;
+    clear: both;
+}
+
+#previous {
+    float: left;
+}
+
+#next {
+    float: right;
+}
+
+.footer-container-calendar {
+    margin-top: 1em;
+    border-top: 1px solid #dadada;
+    padding: 10px 0;
+}
+
+.footer-container-calendar select {
+    cursor: pointer;
+    display: inline-block;
+    zoom: 1;
+    background: #ffffff;
+    color: #585858;
+    border: 1px solid #bfc5c5;
+    border-radius: 3px;
+    padding: 5px 1em;
+}
+.my {
+    padding-left: 100px;
+}
+.cal {
+    overflow: auto;
+    height: 600px;
+}
